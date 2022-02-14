@@ -1,0 +1,14 @@
+$alpha-blue: rgb(2, 5, 86); //#020556;
+$alpha-green: rgb(167, 191, 68); //#a7bf44;
+$alpha-green--dark: rgb(119,136,47); //#77882f
+
+.alpha-blue {
+	color: $alpha-blue;
+}
+
+.alpha-green {
+	color: $alpha-green;
+	&--dark {
+		color: $alpha-green--dark
+	}
+}

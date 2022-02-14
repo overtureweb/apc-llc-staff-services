@@ -1,0 +1,21 @@
+{
+    "name": "overtureweb/staffservices",
+    "authors": [
+        {
+            "name": "alexwarner",
+            "email": "alex@overtureweb.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "APCSSI\\": "src/classes/",
+            "APCSSI\\CheckIns\\": "src/classes/",
+            "APCSSI\\Auth\\": "src/classes/",
+            "APCSSI\\Data\\": "src/classes/",
+            "APCSSI\\Validation\\": "src/classes/",
+            "APCSSI\\Db\\": "src/classes/",
+            "APCSSI\\OCR\\": "src/classes"
+        }
+    }
+}
